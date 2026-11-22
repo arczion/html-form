@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    
+}
+@font-face {
+    font-family: "Norse";
+    src: url(fonts/Norse-Bold.woff2);
+    font-weight: bold;
+}
+
+.logo-text {
+    font-family: "Norse", serif;
+    font-size: 5rem;
+}
+.main-wrapper {
+    display: flex;
+    min-height: 100vh;    
+}
+
+.left-column {
+    flex: 37;
+    background: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.right-column {
+    flex: 63;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #F9FAFB;
+}
+
+
+p + p {
+    margin-bottom: 1em;
+}
+
+button {
+    margin-bottom: 2rem;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    padding: .9rem 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0 , 0, 0.2);
+    cursor: pointer;
+}
+
+.form-wrapper-contents {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap: 1rem 4.5rem;
+}
+
+.form-wrapper-contents h2 {
+ flex-basis: 100%;
+ font-size: 1.5rem;
+ font-weight: 500;
+ color: #1F2937;
+}
+
+.form-wrapper-contents p {
+ flex-basis: calc(50% - 2.25rem);
+ margin-bottom: 0;
+}
+
+.form-wrapper-cta a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563EB;
+    box-shadow: 0 0 4px rgba(37, 99, 235, .4);
+}
+
+input[type="password"]:user-invalid {
+    border-color: red;
+}
+
+.logo {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    background-color: rgba(0, 0 , 0, 0.5);
+    color: white;
+}
+
+.photo-credit {
+    margin-top: auto;
+    color: white;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.photo-credit a {
+    color: white;
+}
+
+.form-band {
+    background-color: white;
+    padding: 1.5rem 3rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0 , 0, 0.1);
+}
+
+.button,
+.form-wrapper-cta {
+    padding-left: 3rem;
+}
+
+.button {
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+
+.right-column-header {
+    padding: 10rem 0 3rem 3rem;
+    max-width: 700px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.header-text {
+    margin-bottom: 1em;
+}
+
+.logo img {
+    width: 95px;
+}
+
