@@ -83,7 +83,7 @@ form h2 {
 }
 
 .form-row input[type="password"]:user-invalid,
-.form-row input[type="email"]:user-invalid {
+{
     border-color: #DC2626;
 }
 
