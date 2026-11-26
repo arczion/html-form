@@ -79,10 +79,11 @@ form h2 {
 .form-row input:focus {
     outline: 2px solid #2563EB;
     border-color: #2563EB;
-    box-shadow: 0 2px 5px rgba(37, 99, 235, 0.5);
+    box-shadow: 0 2px 5px rgba(37, 99, 235, 0.2);
 }
 
-.form-row input:invalid {
+.form-row input[type="password"]:user-invalid,
+.form-row input[type="email"]:user-invalid {
     border-color: #DC2626;
 }
 
@@ -93,7 +94,7 @@ form h2 {
     flex-direction: column;
     gap: 25px;
     padding: 0 40px;
-    margin-top: 20px;
+   
 }
 
 .form-actions button {
@@ -155,7 +156,7 @@ form h2 {
 .right {
     width: 37%;
     
-    background: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center;
 
